@@ -16,12 +16,11 @@ def RetreiveData(acessKey, noOfPages, queryString, outputFile):
         jsonData = dataurl.json()
         for dest in jsonData['response']['docs']:
             if dest == None:
-                break;
-        f = open(outputFile,"a")
-        for item in range(len(jsonData['response']['docs'])):
-                html =jsonData['response']['docs'][item]['web_url']
-                counter = counter +1
-                f.write(str(counter) + "  " + html + "\n")
+                break
+            f = open(outputFile,"a")
+            html =dest['web_url']
+            counter = counter +1
+            f.write(str(counter) + "  " + html + "\n")
         f.close()
         dataurl.close()
         count+=1
