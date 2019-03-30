@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae32beca-20ac-4e7d-acee-88d71141d2f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/Map Reduce/reducer.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TwiterDataCollectionRproj/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Map Reduce/mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Map Reduce/mapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/NyTimes/NYDataCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/NyTimes/NYDataCollection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/NyTimes/FotballText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/NyTimes/FotballText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/NyTimes/WebScrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/NyTimes/WebScrap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/NyTimes/football.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/NyTimes/football.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twiter Data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/NyTimes/football_Copy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/NyTimes/test.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwiterDataCollectionRproj" beforeDir="false" afterPath="$PROJECT_DIR$/TwiterDataCollectionRproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwiterDataCollectionRproj/TweetCollection.R" beforeDir="false" afterPath="$PROJECT_DIR$/TwiterDataCollectionRproj/TweetCollection.R" afterDir="false" />
     </list>
     <ignored path="venv/" />
@@ -47,40 +48,41 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2471" />
-          <entry key="txt" value="178" />
+          <entry key="py" value="2564" />
+          <entry key="txt" value="203" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="178" />
-          <entry key="Python" value="2471" />
+          <entry key="PLAIN_TEXT" value="203" />
+          <entry key="Python" value="2564" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data/NyTimes/NYDataCollection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+            <state relative-caret-position="390">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1553974450833" expanded="true" signature="116:119" ph="..." />
+                <marker date="1553975636926" expanded="true" signature="116:119" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data/NyTimes/WebScrap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
+                <marker date="1553976666016" expanded="true" signature="93:95" ph="..." />
               </folding>
             </state>
           </provider>
@@ -160,10 +162,10 @@
         <option value="$PROJECT_DIR$/Data/Twitter/TwDataCollection.py" />
         <option value="$PROJECT_DIR$/Data/Twitter/twittedData.csv" />
         <option value="$PROJECT_DIR$/Data/Twitter/TWDataCollection.py" />
-        <option value="$PROJECT_DIR$/Data/NyTimes/WebScrap.py" />
         <option value="$PROJECT_DIR$/Data/Map Reduce/reducer.py" />
         <option value="$PROJECT_DIR$/Data/Map Reduce/mapper.py" />
         <option value="$PROJECT_DIR$/Data/NyTimes/NYDataCollection.py" />
+        <option value="$PROJECT_DIR$/Data/NyTimes/WebScrap.py" />
       </list>
     </option>
   </component>
@@ -246,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.NYDataCollection">
+  <component name="RunManager" selected="Python.WebScrap">
     <configuration name="NYDataCollection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BigDataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -339,9 +341,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.WebScrap" />
         <item itemvalue="Python.NYDataCollection" />
         <item itemvalue="Python.mapper" />
-        <item itemvalue="Python.WebScrap" />
         <item itemvalue="Python.TWDataCollection" />
       </list>
     </recent_temporary>
@@ -392,11 +394,19 @@
       <option name="project" value="LOCAL" />
       <updated>1553972649789</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed a bug.">
+      <created>1553975771109</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553975771110</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="53" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1864139" />
@@ -426,31 +436,31 @@
     <MESSAGE value="Scrapped data" />
     <MESSAGE value="Refactored code" />
     <MESSAGE value="Added map function in mapper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added map function in mapper" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Data/NyTimes/WebScrap.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Data/NyTimes/WebScrap.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Data/NyTimes/WebScrap.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Fixed a bug." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug." />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>f</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for htmlLink in f:</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>jsonData</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dest</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>re.search(deleteWordsRegEx,&quot;aman&quot;)</expression-string>
         <language-id>Python</language-id>
@@ -473,26 +483,6 @@
       </expression>
       <expression>
         <expression-string>type(match)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>line</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>[token for token in temp if not delete_re.search(token)]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>[token for token in tokens if not delete_re.search(token)]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>temp</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -549,16 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/NyTimes/WebScrap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -591,11 +571,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/NyTimes/NYDataCollection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+        <state relative-caret-position="390">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1553974450833" expanded="true" signature="116:119" ph="..." />
+            <marker date="1553975636926" expanded="true" signature="116:119" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/NyTimes/WebScrap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1553976666016" expanded="true" signature="93:95" ph="..." />
           </folding>
         </state>
       </provider>
