@@ -44,18 +44,19 @@ def SetupDataClean():
     deleteWordsRegEx = re.compile(r'(' + ',' +'.' + '|'.join(deleteString) + ')', re.VERBOSE | re.IGNORECASE)
     return deleteWordsRegEx
 
-
-def CleanData(inputFile, outputFile, regEx):
-    output = open(outputFile, "w+")
-    data = pd.read_csv(inputFile)
-    punctuationToRemove = list(string.punctuation)
-    stop = stopwords.words('english') + punctuationToRemove
-    for tweet in data.text:
-        line =' '.join([term for term in tokenize(tweet, regEx) if term not in stop])
-        output.write(line)
-    output.close()
-    print('Cleaned data saved at ' , outputFile)
+def Map(regExForDeletingWords):
+    import sys
+    for line in sys.stdin:
+        if len(line) == 0:
+            continue;
+        line = line.strip()
+        line = line.lower();
+        punctuationToRemove = list(string.punctuation)
+        stop = stopwords.words('english') + punctuationToRemove
+        new_line = [term for term in tokenize(line,regExForDeletingWords) if not term in stop]
+        for word in new_line:
+            print(word.lower() + "\t" + "1")
 
 if __name__ == '__main__':
     regEx = SetupDataClean()
-    CleanData(inputFile="/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/twitterdata.csv",outputFile="/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/cleanedTwitterData.txt", regEx=regEx)
+    Map( regEx = regEx)
