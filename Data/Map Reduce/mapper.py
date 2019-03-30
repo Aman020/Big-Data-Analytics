@@ -1,11 +1,9 @@
-
-from nltk.tokenize import word_tokenize
+#!/usr/bin/python
 import re
-import pandas as pd
 from nltk.corpus import stopwords
 import string
 from nltk.stem import PorterStemmer
-
+import sys
 
 
 def tokenize(text, regExForDeletingWords):
@@ -25,6 +23,7 @@ def SetupDataClean():
     import nltk
     # if there is a problem in downloading nltk data, then run the Install Certificates.command available in your Python folder and then execute the download command
     nltk.download('stopwords')
+    #Reference =https://docs.python.org/3/library/re.html
     deleteString = [
         r"""
             (?:
@@ -45,7 +44,7 @@ def SetupDataClean():
     return deleteWordsRegEx
 
 def Map(regExForDeletingWords):
-    import sys
+
     for line in sys.stdin:
         if len(line) == 0:
             continue;
