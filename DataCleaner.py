@@ -38,6 +38,14 @@ def SetupDataClean():
                 [D\)\]\(\]/\\OpP] # Mouth
             )"""
         ,
+        r'<[^>]+>',  # HTML tags
+        r'(?:@[\w_]+)',  # @-mentions
+        r"(?:\#+[\w_]+[\w\'_\-]*[\w_]+)",  # hash-tags
+        r'http[s]?://(?:[a-z]|[0-9]|[$-_@.&amp;+]|[!*\(\),]|(?:%[0-9a-f][0-9a-f]))+',  # URLs
+        r'(?:(?:\d+,?)+(?:\.?\d+)?)',  # numbers
+        r"(?:[a-z][a-z'\-_]+[a-z])",  # words with - and '
+        r'(?:[\w_]+)',  # other words
+        r'(?:\S)',  # anything else
         r'(?<=\D)[.,]|[.,](?=\D)',
         r'<[^>]+>',  # HTML tags
         r'(?:@[\w_]+)',  # @-mentions
@@ -55,10 +63,11 @@ def CombineFiles(fullpath, directory):
     file_names = os.listdir(directory)
     output = ''
     for file in file_names:
-        for filelineno, line in enumerate(open(fullpath +file, encoding="utf-8")):
-            #content = line.strip()
-            #output += content + '\t0\n'
-            textFile.write(line +"")
+        for  filedata in enumerate(open(file, encoding="utf-8")):
+            for line in filedata:
+                content = line.strip()
+                #output += content + '\t0\n'
+                textFile.write(content)
     textFile.close()
 
 
@@ -68,7 +77,7 @@ def Map(regExForDeletingWords,inputFileName, outputFileName):
 
     textFile = open(outputFileName,"w", encoding="utf-8")
     #with open(inputFileName, "r", encoding='utf-8') as file:
-    for filelineno, line in enumerate(open(inputFileName, encoding="utf-8")):
+    for line in enumerate(open(inputFileName, encoding="utf-8")):
             if len(line) == 0:
                 continue;
             line = line.strip()
@@ -83,8 +92,9 @@ def Map(regExForDeletingWords,inputFileName, outputFileName):
 if __name__ == '__main__':
 
     regEx = SetupDataClean()
-    Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/footballText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedFootballData.txt")
-    Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/mlsText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedMlsData.txt")
-    Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/nbaText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedNbaData.txt")
-    Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/nhlText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedNhlData.txt")
+    #Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/footballText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedFootballData.txt")
+    #Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/mlsText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedMlsData.txt")
+    #Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/nbaText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedNbaData.txt")
+    #Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/mlbText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedMlbData.txt")
+    Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/mlbText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedMlbData.txt")
     #CombineFiles("/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/","/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData")
