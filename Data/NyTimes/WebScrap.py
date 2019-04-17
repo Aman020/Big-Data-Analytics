@@ -26,4 +26,4 @@ def ScrapData(inputFileName):
         except:
             textFile.close()
 if __name__ == '__main__':
-    ScrapData(inputFileName="football.txt")
+    ScrapData(inputFileName="nba.txt")
