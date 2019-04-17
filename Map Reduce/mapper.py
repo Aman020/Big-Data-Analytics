@@ -2,13 +2,17 @@
 import re
 # if there is a problem in downloading nltk data, then run the Install Certificates.command available in your Python folder and then execute the download command
 from nltk.corpus import stopwords
+import  nltk
+
 import string
-from nltk.stem import PorterStemmer
+from nltk.stem import SnowballStemmer
+
 import sys
 
 
 def tokenize(text, regExForDeletingWords):
-    ps = PorterStemmer()
+
+    ps = SnowballStemmer()
     resultTokens = []
     tokens = [t for t in text.split()]
     for token in tokens:
@@ -21,9 +25,7 @@ def tokenize(text, regExForDeletingWords):
 
 
 def SetupDataClean():
-    import nltk
     # if there is a problem in downloading nltk data, then run the Install Certificates.command available in your Python folder and then execute the download command
-    nltk.download('stopwords')
     #Reference =https://docs.python.org/3/library/re.html
     deleteString = [
         r"""
