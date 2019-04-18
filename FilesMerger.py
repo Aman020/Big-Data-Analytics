@@ -1,13 +1,12 @@
-import sys
+
 import glob
-import errno
 
 outputFile = open("/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/NyTimes/Scrapped Data/MergedData.txt","w+")
 path = '/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/NyTimes/Scrapped Data/*.txt'
 files = glob.glob(path)
-for name in files: # 'file' is a builtin type, 'name' is a less-ambiguous variable name.
+for name in files:
     try:
-        with open(name) as f: # No need to specify 'r': this is the default.
+        with open(name) as f:
             outputFile.write(f.read())
     except:
         print ("Something went wrong")
