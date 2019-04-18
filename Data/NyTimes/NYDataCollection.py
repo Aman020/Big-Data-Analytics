@@ -21,10 +21,10 @@ def RetreiveData(acessKey, noOfPages, queryString, outputFile):
             html =dest['web_url']
             counter = counter +1
             f.write(str(counter) + "  " + html + "\n")
-        f.close()
+            f.close()
         dataurl.close()
         count+=1
         time.sleep(10)
 
 if __name__ == '__main__':
-    RetreiveData('rdHi9AgUjcjObIPE97DGhv3ArvszGIDM',50,"football","football.txt")
+    RetreiveData('rdHi9AgUjcjObIPE97DGhv3ArvszGIDM',50,"fcbarcelona","fcb.txt")

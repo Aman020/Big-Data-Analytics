@@ -13,7 +13,7 @@ for line in sys.stdin:
         continue;
     word,count = lt[0],lt[1]
     count = int(count)
-    if prev_word is None:
+    if prev_word == None:
         prev_word = word
         continue
     elif prev_word == word:

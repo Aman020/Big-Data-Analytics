@@ -2,8 +2,7 @@
 """mapper.py"""
 
 import sys
-myWords = []
-wordsDict = {}
+myWords = ["football","real","team","madrid","game","match","win","one","first","play","los", "con", "que", "del","win","messi"]
 for line in sys.stdin:
     if len(line) == 0:
         continue;
