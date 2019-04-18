@@ -2,259 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae32beca-20ac-4e7d-acee-88d71141d2f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/footballTextCleaned.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/mlsTextCleaned.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/nbaTextCleaned.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/nhlTextCleaned.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/zidaneCleaned.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TwiterDataCollectionRproj/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/0_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/0_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/0_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/0_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/100_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/100_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/101_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/101_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/102_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/102_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/103_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/103_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/104_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/104_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/105_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/105_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/106_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/106_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/107_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/107_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/108_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/108_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/109_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/109_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/10_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/10_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/10_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/10_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/110_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/110_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/111_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/111_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/112_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/112_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/113_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/113_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/114_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/114_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/115_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/115_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/116_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/116_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/117_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/117_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/118_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/118_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/119_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/119_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/11_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/11_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/11_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/11_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/120_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/120_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/121_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/121_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/122_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/122_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/123_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/123_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/124_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/124_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/125_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/125_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/126_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/126_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/127_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/127_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/128_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/128_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/129_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/129_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/12_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/12_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/12_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/12_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/130_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/130_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/131_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/131_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/132_espn.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/13_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/13_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/13_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/13_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/14_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/14_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/14_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/14_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/15_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/15_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/15_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/15_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/16_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/16_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/16_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/16_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/17_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/17_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/17_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/17_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/18_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/18_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/18_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/18_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/19_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/19_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/19_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/19_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/1_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/1_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/1_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/1_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/20_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/20_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/20_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/20_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/21_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/21_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/21_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/21_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/22_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/22_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/22_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/22_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/237_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/237_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/238_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/238_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/239_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/239_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/23_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/23_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/23_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/23_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/240_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/240_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/241_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/241_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/242_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/242_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/243_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/243_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/244_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/244_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/245_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/245_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/246_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/246_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/247_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/247_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/248_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/248_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/24_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/24_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/24_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/24_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/25_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/25_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/25_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/25_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/26_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/26_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/26_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/26_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/27_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/27_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/27_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/27_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/28_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/28_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/28_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/28_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/29_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/29_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/29_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/29_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/2_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/2_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/2_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/2_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/30_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/30_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/30_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/30_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/31_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/31_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/31_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/31_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/32_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/32_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/32_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/32_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/33_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/33_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/33_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/33_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/34_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/34_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/34_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/34_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/35_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/35_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/35_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/35_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/36_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/36_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/36_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/36_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/37_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/37_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/37_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/37_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/38_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/38_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/38_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/38_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/39_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/39_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/39_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/39_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/3_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/3_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/3_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/3_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/40_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/40_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/40_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/40_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/41_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/41_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/41_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/41_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/42_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/42_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/42_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/42_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/43_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/43_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/43_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/43_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/44_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/44_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/44_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/44_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/45_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/45_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/45_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/45_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/46_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/46_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/46_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/46_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/47_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/47_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/47_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/47_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/48_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/48_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/48_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/48_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/49_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/49_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/49_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/49_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/4_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/4_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/4_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/4_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/50_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/50_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/50_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/50_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/51_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/51_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/51_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/51_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/52_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/52_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/52_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/52_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/53_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/53_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/53_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/53_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/54_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/54_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/54_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/54_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/55_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/55_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/55_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/55_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/56_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/56_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/56_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/56_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/57_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/57_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/57_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/57_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/58_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/58_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/58_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/58_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/59_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/59_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/59_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/59_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/5_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/5_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/5_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/5_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/60_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/60_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/60_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/60_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/61_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/61_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/61_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/61_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/62_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/62_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/62_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/62_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/63_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/63_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/63_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/63_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/64_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/64_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/64_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/64_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/65_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/65_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/65_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/65_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/66_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/66_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/66_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/66_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/67_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/67_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/67_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/67_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/68_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/68_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/68_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/68_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/69_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/69_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/69_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/69_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/6_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/6_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/6_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/6_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/70_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/70_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/70_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/70_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/71_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/71_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/71_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/71_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/72_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/72_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/72_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/72_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/73_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/73_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/73_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/73_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/74_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/74_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/74_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/74_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/75_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/75_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/75_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/75_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/76_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/76_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/76_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/76_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/77_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/77_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/77_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/77_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/78_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/78_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/78_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/78_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/79_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/79_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/79_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/79_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/7_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/7_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/7_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/7_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/80_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/80_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/80_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/80_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/81_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/81_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/81_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/81_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/82_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/82_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/82_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/82_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/83_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/83_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/83_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/83_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/84_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/84_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/84_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/84_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/85_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/85_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/85_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/85_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/86_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/86_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/86_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/86_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/87_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/87_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/87_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/87_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/88_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/88_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/88_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/88_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/89_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/89_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/89_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/89_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/8_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/8_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/8_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/8_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/90_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/90_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/90_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/90_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/91_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/91_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/91_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/91_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/92_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/92_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/92_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/92_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/93_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/93_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/93_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/93_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/94_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/94_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/94_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/94_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/95_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/95_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/95_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/95_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/96_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/96_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/96_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/96_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/97_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/97_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/97_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/97_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/98_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/98_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/99_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/99_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/9_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/9_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/9_goal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/9_goal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/CCDataExtract.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/CCDataExtract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/hrefs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/hrefs_espn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/hrefs_espn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/NyTimes/NYDataCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/NyTimes/NYDataCollection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output1/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/CleanedFootballData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/CleanedMlbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/CleanedMlsData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/CleanedNbaData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/CleanedNhlData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/dhoniCleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/dhoniCleaned.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/fcbarcelonaCleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/fcbarcelonaCleaned.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/kohliCleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/kohliCleaned.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/messiCleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/messiCleaned.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/realmadridCleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/realmadridCleaned.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/ronaldoCleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/ronaldoCleaned.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/football.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/footballText.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/mlb.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/mlbText.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/mls.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/mlsText.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/nba.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/nbaText.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/nhl.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/nhlText.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Twitter/sample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduce/reducer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MapReduceCO/mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduceCO/mapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MapReduceCO/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduceCO/reducer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwiterDataCollectionRproj" beforeDir="false" afterPath="$PROJECT_DIR$/TwiterDataCollectionRproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwiterDataCollectionRproj/TweetCollection.R" beforeDir="false" afterPath="$PROJECT_DIR$/TwiterDataCollectionRproj/TweetCollection.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output2/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/output/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output2/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output3/SampleOutput" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output3/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/output1/_SUCCESS" afterDir="false" />
     </list>
     <ignored path="venv/" />
     <ignored path=".idea/" />
@@ -311,7 +97,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="135" />
-          <entry key="py" value="7895" />
+          <entry key="py" value="7907" />
           <entry key="s=SampleOutput" value="2" />
           <entry key="txt" value="323" />
         </counts>
@@ -319,7 +105,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="325" />
-          <entry key="Python" value="8030" />
+          <entry key="Python" value="8042" />
         </counts>
       </usages-collector>
     </session>
@@ -380,10 +166,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data/Common Crawl/CCDataExtract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               <folding>
-                <marker date="1555569842174" expanded="true" signature="2876:2878" ph="..." />
+                <marker date="1555570229263" expanded="true" signature="2890:2892" ph="..." />
               </folding>
             </state>
           </provider>
@@ -418,8 +204,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MapReduceCO/mapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="126" selection-start-line="4" selection-start-column="126" selection-end-line="4" selection-end-column="126" />
+            <state relative-caret-position="75">
+              <caret line="5" column="126" selection-start-line="5" selection-start-column="126" selection-end-line="5" selection-end-column="126" />
             </state>
           </provider>
         </entry>
@@ -428,7 +214,7 @@
         <entry file="file://$PROJECT_DIR$/MapReduceCO/reducer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -527,30 +313,12 @@
             <path>
               <item name="BigDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigDataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="CleanedData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="MapReduce" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BigDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigDataAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="MapReduceCO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="output3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BigDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
@@ -806,18 +574,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.122621566" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4982382" weight="0.34457833" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4982382" visible="true" weight="0.34457833" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5024665" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32574257" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32871288" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49753347" visible="true" weight="0.26746988" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49753347" weight="0.26746988" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4986835" weight="0.27349398" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -1167,23 +934,23 @@
     <entry file="file://$PROJECT_DIR$/MapReduceCO/reducer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MapReduceCO/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="126" selection-start-line="4" selection-start-column="126" selection-end-line="4" selection-end-column="126" />
+        <state relative-caret-position="75">
+          <caret line="5" column="126" selection-start-line="5" selection-start-column="126" selection-end-line="5" selection-end-column="126" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/Common Crawl/CCDataExtract.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding>
-            <marker date="1555569842174" expanded="true" signature="2876:2878" ph="..." />
+            <marker date="1555570229263" expanded="true" signature="2890:2892" ph="..." />
           </folding>
         </state>
       </provider>

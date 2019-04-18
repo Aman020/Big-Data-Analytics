@@ -1,13 +1,18 @@
 #!/usr/bin/env python
 """reducer.py"""
 
+from operator import itemgetter
+
 import sys
-word = None
-prev_word = None
-prev_count = 0;
+
+curr_word = ""
+curr_count = 0
+word = curr_word
+wordpair = curr_word
+
 for line in sys.stdin:
-    # remove leading and trailing whitespace
     line = line.strip()
+<<<<<<< HEAD
     lt =  line.split('\t')
     if len(lt)!=2:
         continue;
@@ -15,11 +20,21 @@ for line in sys.stdin:
     count = int(count)
     if prev_word == None:
         prev_word = word
+=======
+    wordpair, count = line.split('\t', 1)
+    try:
+        count = int(count)
+    except ValueError:
+>>>>>>> 5e544b47aa76ed2eb32fab0ec27402e6d53d38eb
         continue
-    elif prev_word == word:
-        prev_count += count
+    if curr_word == wordpair:
+        curr_count += count
     else:
-        print(prev_word+"\t"+str(prev_count))
-        prev_word = word
-        prev_count = count
-print (prev_word+"\t"+str(prev_count))
+        if curr_word:
+            # write result to STDOUT
+            print('%s\t%s' % (curr_word, curr_count))
+        curr_count = count
+        curr_word = wordpair
+
+if curr_word == wordpair:
+    print('%s\t%s' % (curr_word, curr_count))
