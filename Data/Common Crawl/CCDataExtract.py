@@ -16,7 +16,7 @@ linker = []
 myTopics = ["football","basketball","nba","mls","nfl","nhl","cricket","soccer"]
 def GetRecords():
     recordList = []
-    ccUrl = "http://index.commoncrawl.org/CC-MAIN-2019-09-index?url=https://https://www.goal.com/en-us/&matchType=domain&output=json"
+    ccUrl = "http://index.commoncrawl.org/CC-MAIN-2019-09-index?url=https://www.fifa.com/&matchType=domain&output=json"
     response = requests.get(ccUrl)
     if response.status_code ==200:
         records = response.content.splitlines()
@@ -28,7 +28,7 @@ def GetRecords():
 def GetData(recordList):
     count=0
     for record in recordList:
-        if count >1000:
+        if count >500:
             break;
         offset, length = int(record['offset']), int(record['length'])
         offset_end = offset + length -1
@@ -52,10 +52,10 @@ def GetData(recordList):
                             linker.append(href.encode('utf-8'))
                             count = count +1
                             print(str(count))
-                            if count > 1000:
+                            if count > 500:
                                 break
 
-    with open("hrefs_goal.txt", 'w+') as file:
+    with open("hrefs_fifa.txt", 'w+') as file:
         for link in linker:
             file.write(link.encode("utf-8"))
             file.write("\n")
@@ -77,7 +77,7 @@ def ScrapData(filename):
                     text += para.get_text()
                 if text != "":
                     text = text.lower()
-                    textFile = open(str(i) + "_goal.txt", "w+")
+                    textFile = open(str(i) + "_fifa.txt", "w+")
                     textFile.write(text.encode('utf-8'))
                     i = i + 1
         except:
@@ -87,6 +87,6 @@ def ScrapData(filename):
 
 
 if __name__ == '__main__':
-    recordList =GetRecords()
-    GetData(recordList)
-    ScrapData("hrefs_goal.txt")
+    #recordList =GetRecords()
+    #GetData(recordList)
+    ScrapData("hrefs_fifa.txt")

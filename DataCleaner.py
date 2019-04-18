@@ -34,7 +34,7 @@ def SetupDataClean():
 
 
 
-def Map(regExForDeletingWords,inputFileName, outputFileName):
+def Clean(regExForDeletingWords,inputFileName, outputFileName):
 
     textFile = open(outputFileName,"w", encoding="utf-8")
     #with open(inputFileName, "r", encoding='utf-8') as file:
@@ -53,8 +53,10 @@ def Map(regExForDeletingWords,inputFileName, outputFileName):
 if __name__ == '__main__':
 
     regEx = SetupDataClean()
+    Clean(regEx, "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Common Crawl/MergedCCData.txt",
+          "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Common Crawl/Cleaned Data/CleanedCCData.txt")
+
     #Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/footballText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedFootballData.txt")
-    Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/mlsText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedMlsData.txt")
-    Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/nbaText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedNbaData.txt")
-    Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/nhlText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedNhlData.txt")
-    Map(regEx, "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/mlbText.txt","/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedMlbData.txt")
+    #Clean(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/nbaText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedNbaData.txt")
+    #Clean(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/nhlText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedNhlData.txt")
+    #Clean(regEx, "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/mlbText.txt","/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedMlbData.txt")
