@@ -38,8 +38,4 @@ for line in sys.stdin:
 wordDict = sorted(wordDict.items(), key= lambda kv:(kv[1],kv[0]), reverse = True)
 
 for word in wordDict:
-    print(word[0] + "\t" + word[1])
-
-
-
-
+    print('%s\t%s' % (word[0], word[1]))
