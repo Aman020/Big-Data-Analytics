@@ -53,8 +53,10 @@ def Clean(regExForDeletingWords,inputFileName, outputFileName):
 if __name__ == '__main__':
 
     regEx = SetupDataClean()
+    Clean(regEx, "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Common Crawl/MergedCCData.txt",
+          "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Common Crawl/Cleaned Data/CleanedCCData.txt")
+
     #Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/footballText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedFootballData.txt")
-    Clean(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/mlsText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedMlsData.txt")
-    Clean(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/nbaText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedNbaData.txt")
-    Clean(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/nhlText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedNhlData.txt")
-    Clean(regEx, "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/mlbText.txt","/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedMlbData.txt")
+    #Clean(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/nbaText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedNbaData.txt")
+    #Clean(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/nhlText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedNhlData.txt")
+    #Clean(regEx, "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/mlbText.txt","/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedMlbData.txt")
