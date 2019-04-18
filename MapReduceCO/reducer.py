@@ -1,39 +1,25 @@
 #!/usr/bin/env python
-
-from operator import itemgetter
+"""reducer.py"""
 import sys
-import json
 
-current_word = None
-current_dict = {}
-word = None
-
+currentWord = None
+currentCount = 0
+word = currentWord
+wordCoOccur = currentWord
 
 for line in sys.stdin:
-
     line = line.strip()
-
-
-    word, stripe = line.split('\t', 1)
-
-
-    try:
-        stripe = json.loads(stripe)
-    except:
-        print "error"
-        continue
-
-    if current_word == word:
-        for entries in stripe:
-            if entries not in current_dict:
-                current_dict[entries] = 0
-            current_dict[entries] += int(stripe[entries])
+    line = line.lower()
+    wordCoOccur, count = line.split('\t', 1)
+    count = int(count)
+    if currentWord == wordCoOccur:
+        currentCount = currentCount + count
     else:
-        if current_word:
+        if currentWord:
+            print('%s\t%s' % (currentWord, currentCount))
+            currentCount = count
+        currentWord = wordCoOccur
+if currentWord == wordCoOccur:
+    print('%s\t%s' % (currentWord, currentCount))
 
-            print '%s\t%s' % (current_word, json.dumps(current_dict))
-        current_dict = stripe
-        current_word = word
 
-if current_word == word:
-    print '%s\t%s' % (current_word, json.dumps(current_dict))
