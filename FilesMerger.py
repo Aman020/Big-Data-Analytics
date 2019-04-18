@@ -9,6 +9,5 @@ for name in files: # 'file' is a builtin type, 'name' is a less-ambiguous variab
     try:
         with open(name) as f: # No need to specify 'r': this is the default.
             outputFile.write(f.read())
-    except IOError as exc:
-        if exc.errno != errno.EISDIR: # Do not fail if a directory is found, just ignore it.
-            raise # Propagate other kinds of IOError.
+    except:
+        print ("Something went wrong")
