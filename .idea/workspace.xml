@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae32beca-20ac-4e7d-acee-88d71141d2f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/footballTextCleaned.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/mlsTextCleaned.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/nbaTextCleaned.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/nhlTextCleaned.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/zidaneCleaned.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TwiterDataCollectionRproj/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/part-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output1/part-00000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/CleanedFootballData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/CleanedMlbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/CleanedMlsData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/CleanedNbaData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/CleanedNhlData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/dhoniCleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/dhoniCleaned.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/fcbarcelonaCleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/fcbarcelonaCleaned.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/kohliCleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/kohliCleaned.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/messiCleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/messiCleaned.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/realmadridCleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/realmadridCleaned.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/CleanedData/ronaldoCleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Twitter/CleanedData/ronaldoCleaned.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/football.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/footballText.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/mlb.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/mlbText.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/mls.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/mlsText.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/nba.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/nbaText.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/nhl.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/nhlText.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Twitter/sample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduce/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduce/reducer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduceCO/mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduceCO/mapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapReduceCO/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduceCO/reducer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwiterDataCollectionRproj" beforeDir="false" afterPath="$PROJECT_DIR$/TwiterDataCollectionRproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwiterDataCollectionRproj/TweetCollection.R" beforeDir="false" afterPath="$PROJECT_DIR$/TwiterDataCollectionRproj/TweetCollection.R" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output2/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/output/_SUCCESS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output2/part-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output3/SampleOutput" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output3/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/output1/_SUCCESS" afterDir="false" />
     </list>
     <ignored path="venv/" />
     <ignored path=".idea/" />
