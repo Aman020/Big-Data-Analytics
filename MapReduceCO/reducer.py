@@ -13,6 +13,7 @@ wordpair = curr_word
 for line in sys.stdin:
     line = line.strip()
 <<<<<<< HEAD
+<<<<<<< HEAD
     lt =  line.split('\t')
     if len(lt)!=2:
         continue;
@@ -21,10 +22,15 @@ for line in sys.stdin:
     if prev_word == None:
         prev_word = word
 =======
+=======
+>>>>>>> 5e544b47aa76ed2eb32fab0ec27402e6d53d38eb
     wordpair, count = line.split('\t', 1)
     try:
         count = int(count)
     except ValueError:
+<<<<<<< HEAD
+>>>>>>> 5e544b47aa76ed2eb32fab0ec27402e6d53d38eb
+=======
 >>>>>>> 5e544b47aa76ed2eb32fab0ec27402e6d53d38eb
         continue
     if curr_word == wordpair:

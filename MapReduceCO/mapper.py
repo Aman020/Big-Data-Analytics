@@ -3,6 +3,7 @@
 
 import sys
 <<<<<<< HEAD
+<<<<<<< HEAD
 myWords = ["football","real","team","madrid","game","match","win","one","first","play","los", "con", "que", "del","win","messi"]
 =======
 topwords = ["football","real","team","madrid","game","match","win","one","first","play","los", "con", "que", "del"]
@@ -25,10 +26,20 @@ for line in sys.stdin:
                 continue;
             print (myWords[loc]+","+myWords[i2]+"\t1")
 =======
+=======
+topwords = ["football","real","team","madrid","game","match","win","one","first","play","los", "con", "que", "del"]
+tempWord = ""
+for line in sys.stdin:
+    # remove leading and trailing whitespace
+    line = line.strip()
+>>>>>>> 5e544b47aa76ed2eb32fab0ec27402e6d53d38eb
     # split the line into words
     words = line.split()
     for topword in topwords:
         for i in range(0, len(words)-1):
             if words[i] == topword:
                 print("%s|%s\t%s" % (words[i],words[i+1], 1))
+<<<<<<< HEAD
+>>>>>>> 5e544b47aa76ed2eb32fab0ec27402e6d53d38eb
+=======
 >>>>>>> 5e544b47aa76ed2eb32fab0ec27402e6d53d38eb
