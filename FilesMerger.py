@@ -1,8 +1,8 @@
 
 import glob
 
-outputFile = open("/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/NyTimes/Scrapped Data/MergedData.txt","w+")
-path = '/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/NyTimes/Scrapped Data/*.txt'
+outputFile = open("/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Common Crawl/MergedCCData.txt","w+")
+path = '/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Common Crawl/*.txt'
 files = glob.glob(path)
 for name in files:
     try:
