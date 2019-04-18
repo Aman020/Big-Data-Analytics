@@ -1,30 +1,25 @@
 #!/usr/bin/env python
 """reducer.py"""
-
-from operator import itemgetter
-
 import sys
 
-curr_word = ""
-curr_count = 0
-word = curr_word
-wordpair = curr_word
+currentWord = None
+currentCount = 0
+word = currentWord
+wordCoOccur = currentWord
 
 for line in sys.stdin:
     line = line.strip()
-    wordpair, count = line.split('\t', 1)
-    try:
-        count = int(count)
-    except ValueError:
-        continue
-    if curr_word == wordpair:
-        curr_count += count
+    line = line.lower()
+    wordCoOccur, count = line.split('\t', 1)
+    count = int(count)
+    if currentWord == wordCoOccur:
+        currentCount = currentCount + count
     else:
-        if curr_word:
-            # write result to STDOUT
-            print('%s\t%s' % (curr_word, curr_count))
-        curr_count = count
-        curr_word = wordpair
+        if currentWord:
+            print('%s\t%s' % (currentWord, currentCount))
+            currentCount = count
+        currentWord = wordCoOccur
+if currentWord == wordCoOccur:
+    print('%s\t%s' % (currentWord, currentCount))
 
-if curr_word == wordpair:
-    print('%s\t%s' % (curr_word, curr_count))
+

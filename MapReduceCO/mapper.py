@@ -2,14 +2,12 @@
 """mapper.py"""
 
 import sys
-topwords = ["football","real","team","madrid","game","match","win","one","first","play"]
-tempWord = ""
+myWords = ["football","real","team","madrid","game","match","win","one","first","play"]
 for line in sys.stdin:
-    # remove leading and trailing whitespace
     line = line.strip()
-    # split the line into words
+    line = line.lower()
     words = line.split()
-    for topword in topwords:
+    for myWord in myWords:
         for i in range(0, len(words)-1):
-            if words[i] == topword:
-                print("%s|%s\t%s" % (words[i],words[i+1], 1))
+            if words[i] == myWord:
+                print("%s,%s\t%s" % (words[i],words[i+1], 1))
