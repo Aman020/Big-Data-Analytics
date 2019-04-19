@@ -44,7 +44,7 @@ def Clean(regExForDeletingWords,inputFileName, outputFileName):
             line = line.strip()
             line = line.lower();
             punctuationToRemove = list(string.punctuation)
-            stop = stopwords.words('english') + stopwords + punctuationToRemove
+            stop = stopwords.words('english')  + punctuationToRemove
             new_line = [term for term in tokenize(line,regExForDeletingWords) if not term in stop]
             for word in new_line:
                 textFile.write(word + " ")
