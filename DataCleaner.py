@@ -36,25 +36,27 @@ def SetupDataClean():
 
 def Clean(regExForDeletingWords,inputFileName, outputFileName):
 
-    textFile = open(outputFileName,"w", encoding="utf-8")
-    #with open(inputFileName, "r", encoding='utf-8') as file:
-    for filelineno, line in enumerate(open(inputFileName, encoding="utf-8")):
+    textFile = open(outputFileName,"w")
+    for filelineno, line in enumerate(open(inputFileName)):
             if len(line) == 0:
                 continue;
             line = line.strip()
             line = line.lower();
             punctuationToRemove = list(string.punctuation)
-            stop = stopwords.words('english') + stopwords + punctuationToRemove
+            stop = stopwords.words('english') + punctuationToRemove
             new_line = [term for term in tokenize(line,regExForDeletingWords) if not term in stop]
             for word in new_line:
                 textFile.write(word + " ")
     textFile.close();
 
+
 if __name__ == '__main__':
 
     regEx = SetupDataClean()
-    Clean(regEx, "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Common Crawl/MergedCCData.txt",
-          "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Common Crawl/Cleaned Data/CleanedCCData.txt")
+    for filename in os.listdir("/Drive/UB/Spring19/DIC/Project2/Lab2/Data/Common Crawl/"):
+            if filename.endswith(".txt"):
+                print(str(filename))
+                Clean(regEx, "/Drive/UB/Spring19/DIC/Project2/Lab2/Data/Common Crawl/" +filename,"/Drive/UB/Spring19/DIC/Project2/Lab2/Data/Common Crawl/CleanedData/" + str(filename).split(".")[0] + "_cleaned.txt")
 
     #Map(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/footballText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedFootballData.txt")
     #Clean(regEx,"/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/nbaText.txt", "/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/Twitter/CleanedData/CleanedNbaData.txt")
