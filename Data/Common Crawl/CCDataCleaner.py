@@ -8,7 +8,6 @@ from nltk.stem import PorterStemmer
 import os
 
 
-
 def tokenize(text, regExForDeletingWords):
     ps = PorterStemmer()
     resultTokens = []
@@ -35,7 +34,7 @@ def SetupDataClean():
 
 
 def Clean(regExForDeletingWords,inputFileName, outputFileName):
-
+    customStopWords = ["get", "said", "account", "also", "last", "first", "new", "make", "may"]
     textFile = open(outputFileName,"w")
     #with open(inputFileName, "r", encoding='utf-8') as file:
     for filelineno, line in enumerate(open(inputFileName)):
@@ -44,7 +43,7 @@ def Clean(regExForDeletingWords,inputFileName, outputFileName):
             line = line.strip()
             line = line.lower();
             punctuationToRemove = list(string.punctuation)
-            stop = stopwords.words('english')  + punctuationToRemove
+            stop = stopwords.words('english')  + punctuationToRemove +customStopWords
             new_line = [term for term in tokenize(line,regExForDeletingWords) if not term in stop]
             for word in new_line:
                 textFile.write(word + " ")
