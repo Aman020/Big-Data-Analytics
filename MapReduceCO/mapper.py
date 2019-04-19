@@ -3,6 +3,7 @@
 
 import sys
 myWords = ["football","messi","fifa","nba","game","one","team","league","win","champions"]
+
 for line in sys.stdin:
     line = line.strip()
     line = line.lower()

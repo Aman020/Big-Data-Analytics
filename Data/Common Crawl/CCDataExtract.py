@@ -7,8 +7,8 @@ import csv
 import codecs
 from bs4 import BeautifulSoup
 import sys
-import StringIO
 import io
+import  StringIO
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -16,7 +16,7 @@ linker = []
 myTopics = ["football","basketball","nba","mls","nfl","nhl","cricket","soccer"]
 def GetRecords():
     recordList = []
-    ccUrl = "http://index.commoncrawl.org/CC-MAIN-2019-09-index?url=https://www.fifa.com/&matchType=domain&output=json"
+    ccUrl = "http://index.commoncrawl.org/CC-MAIN-2019-13-index?url=https://www.espn.com/&matchType=domain&output=json"
     response = requests.get(ccUrl)
     if response.status_code ==200:
         records = response.content.splitlines()
@@ -28,7 +28,7 @@ def GetRecords():
 def GetData(recordList):
     count=0
     for record in recordList:
-        if count >500:
+        if count >800:
             break;
         offset, length = int(record['offset']), int(record['length'])
         offset_end = offset + length -1
@@ -52,10 +52,10 @@ def GetData(recordList):
                             linker.append(href.encode('utf-8'))
                             count = count +1
                             print(str(count))
-                            if count > 500:
+                            if count > 800:
                                 break
 
-    with open("hrefs_fifa.txt", 'w+') as file:
+    with open("hrefs_espn19.txt", 'w+') as file:
         for link in linker:
             file.write(link.encode("utf-8"))
             file.write("\n")
@@ -77,11 +77,10 @@ def ScrapData(filename):
                     text += para.get_text()
                 if text != "":
                     text = text.lower()
-                    textFile = open(str(i) + "_fifa.txt", "w+")
+                    textFile = open(str(i) + "_espn19.txt", "w+")
                     textFile.write(text.encode('utf-8'))
                     i = i + 1
         except:
-
             print("Something went wrong...")
             textFile.close()
 
@@ -89,4 +88,4 @@ def ScrapData(filename):
 if __name__ == '__main__':
     #recordList =GetRecords()
     #GetData(recordList)
-    ScrapData("hrefs_fifa.txt")
+    ScrapData("hrefs_espn19.txt")
