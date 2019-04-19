@@ -2,7 +2,7 @@
 """mapper.py"""
 
 import sys
-myWords = ["football","real","team","madrid","game","match","win","one","first","play"]
+myWords = ["football","real","team","madrid","game","match","win","one","first","play","messi", "champion"]
 for line in sys.stdin:
     line = line.strip()
     line = line.lower()

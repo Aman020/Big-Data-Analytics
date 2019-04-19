@@ -7,7 +7,7 @@ import csv
 import codecs
 from bs4 import BeautifulSoup
 import sys
-import StringIO
+im,
 import io
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -81,7 +81,6 @@ def ScrapData(filename):
                     textFile.write(text.encode('utf-8'))
                     i = i + 1
         except:
-
             print("Something went wrong...")
             textFile.close()
 
