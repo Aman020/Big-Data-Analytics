@@ -44,7 +44,11 @@ def Map(regExForDeletingWords,inputFileName, outputFileName):
             line = line.strip()
             line = line.lower();
             punctuationToRemove = list(string.punctuation)
+<<<<<<< HEAD
+            stop = stopwords.words('english')  + punctuationToRemove
+=======
             stop = stopwords.words('english') + punctuationToRemove
+>>>>>>> master
             new_line = [term for term in tokenize(line,regExForDeletingWords) if not term in stop]
             new_line = [word for word in new_line if not len(word) == 1]
             new_line = [word for word in new_line if not len(word) == 2]

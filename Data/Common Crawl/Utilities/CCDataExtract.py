@@ -86,6 +86,7 @@ def ScrapData(filename):
 
 
 if __name__ == '__main__':
+    # Reference -https://www.bellingcat.com/resources/2015/08/13/using-python-to-mine-common-crawl/
     #recordList =GetRecords()
     #GetData(recordList)
     ScrapData("hrefs_espn19.txt")
