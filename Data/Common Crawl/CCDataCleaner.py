@@ -34,7 +34,7 @@ def SetupDataClean():
 
 
 def Clean(regExForDeletingWords,inputFileName, outputFileName):
-    customStopWords = ["get", "said", "account", "also", "last", "first", "new", "make", "may"]
+    customStopWords = ["get", "account", "also", "last", "first", "new", "make", "may","said","con","made","live","los","like","would","could","might","de","en","el","la","se"]
     textFile = open(outputFileName,"w")
     #with open(inputFileName, "r", encoding='utf-8') as file:
     for filelineno, line in enumerate(open(inputFileName)):

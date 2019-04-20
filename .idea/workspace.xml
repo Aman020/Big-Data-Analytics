@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ae32beca-20ac-4e7d-acee-88d71141d2f1" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/TwiterDataCollectionRproj/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Common Crawl/CCDataCleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/CCDataCleaner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Common Crawl/CCDataExtract.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Common Crawl/CCDataExtract.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwiterDataCollectionRproj" beforeDir="false" afterPath="$PROJECT_DIR$/TwiterDataCollectionRproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwiterDataCollectionRproj/TweetCollection.R" beforeDir="false" afterPath="$PROJECT_DIR$/TwiterDataCollectionRproj/TweetCollection.R" afterDir="false" />
     </list>
@@ -19,14 +21,14 @@
     <session id="-1158984348">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,7 +64,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="135" />
-          <entry key="py" value="8445" />
+          <entry key="py" value="8550" />
           <entry key="s=SampleOutput" value="2" />
           <entry key="txt" value="323" />
         </counts>
@@ -70,7 +72,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="325" />
-          <entry key="Python" value="8580" />
+          <entry key="Python" value="8685" />
         </counts>
       </usages-collector>
     </session>
@@ -80,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataCleaner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="-183">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="e#19#28#0" expanded="true" />
               </folding>
@@ -101,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MapReduce/mapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state>
+              <caret selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -122,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data/Common Crawl/CCDataExtract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+            <state relative-caret-position="798">
+              <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -143,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data/NyTimes/NYDataCollection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+            <state relative-caret-position="435">
+              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <marker date="1555545670555" expanded="true" signature="116:119" ph="..." />
@@ -169,8 +171,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data/Common Crawl/CCDataCleaner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+            <state relative-caret-position="602">
+              <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
               <folding>
                 <element signature="e#19#28#0" expanded="true" />
               </folding>
@@ -227,8 +229,8 @@
         <option value="$PROJECT_DIR$/FilesMerger.py" />
         <option value="$PROJECT_DIR$/MapReduceCO/reducer.py" />
         <option value="$PROJECT_DIR$/MapReduceCO/mapper.py" />
-        <option value="$PROJECT_DIR$/Data/Common Crawl/CCDataExtract.py" />
         <option value="$PROJECT_DIR$/DataCleaner.py" />
+        <option value="$PROJECT_DIR$/Data/Common Crawl/CCDataExtract.py" />
         <option value="$PROJECT_DIR$/Data/Common Crawl/CCDataCleaner.py" />
       </list>
     </option>
@@ -277,13 +279,6 @@
               <item name="BigDataAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
               <item name="Common Crawl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="Common Crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="CleanedData" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BigDataAnalysis" type="b2602c69:ProjectViewProjectNode" />
@@ -564,9 +559,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16560958" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16560958" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4982382" visible="true" weight="0.28313252" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4982382" visible="true" weight="0.28313252" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5024665" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.3253012" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -657,12 +652,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Data/Common Crawl/CCDataCleaner.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Data/Common Crawl/CCDataCleaner.py</url>
-          <line>13</line>
+          <line>11</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
@@ -811,9 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,27 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataCleaner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#19#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FilesMerger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="4" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MapReduce/mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -872,16 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Common Crawl/CCDataExtract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/NyTimes/nzidane.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -889,14 +849,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/NyTimes/NYDataCollection.py">
+    <entry file="file://$PROJECT_DIR$/MapReduceCO/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        <state relative-caret-position="60">
+          <caret line="4" column="87" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Common Crawl/CCDataExtract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1555545670555" expanded="true" signature="116:119" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/mapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -911,17 +884,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MapReduceCO/mapper.py">
+    <entry file="file://$PROJECT_DIR$/Data/NyTimes/NYDataCollection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="87" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
+        <state relative-caret-position="435">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1555545670555" expanded="true" signature="116:119" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#19#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/Common Crawl/CCDataCleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+        <state relative-caret-position="602">
+          <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
           <folding>
             <element signature="e#19#28#0" expanded="true" />
           </folding>
