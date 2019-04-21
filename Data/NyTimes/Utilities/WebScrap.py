@@ -19,7 +19,7 @@ def ScrapData(inputFileName):
                     for para in article.find_all('p'):
                         text += para.get_text().encode('utf-8')
                 if text != "":
-                    textFile = open("/Users/aman/PycharmProjects/DIC/BigDataAnalysis/Data/NyTimes/Scrapped Data/"+str(i) + "_" + suffix +".txt","wb")
+                    textFile = open("/Users/dev/PycharmProjects/DIC/NYTimes/Scraped/"+str(i) + "_" + suffix +".txt","wb")
                     textFile.write(text)
                     i= i+1
                     text =""
