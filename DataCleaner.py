@@ -34,7 +34,8 @@ def SetupDataClean():
 
 
 
-def Map(regExForDeletingWords,inputFileName, outputFileName):
+def Clean(regExForDeletingWords,inputFileName, outputFileName):
+    customStopWords = ["get", "account", "also", "last", "first", "new", "make", "may","said","con","made","live","los","like","would","could","might","de","en","el","la","se"]
 
     textFile = open(outputFileName,"w")
     #with open(inputFileName, "r", encoding='utf-8') as file:
@@ -44,11 +45,7 @@ def Map(regExForDeletingWords,inputFileName, outputFileName):
             line = line.strip()
             line = line.lower();
             punctuationToRemove = list(string.punctuation)
-<<<<<<< HEAD
-            stop = stopwords.words('english')  + punctuationToRemove
-=======
-            stop = stopwords.words('english') + punctuationToRemove
->>>>>>> master
+            stop = stopwords.words('english')  + punctuationToRemove + customStopWords
             new_line = [term for term in tokenize(line,regExForDeletingWords) if not term in stop]
             new_line = [word for word in new_line if not len(word) == 1]
             new_line = [word for word in new_line if not len(word) == 2]
@@ -60,7 +57,7 @@ def Map(regExForDeletingWords,inputFileName, outputFileName):
 if __name__ == '__main__':
 
     regEx = SetupDataClean()
-    Map(regEx,"/Users/dev/PycharmProjects/DIC/Twitter/mlbText.txt", "/Users/dev/PycharmProjects/DIC/Cleaned/Twitter/cleanedMlb.txt")
+    Clean(regEx,"/Users/dev/PycharmProjects/DIC/Twitter/mlbText.txt", "/Users/dev/PycharmProjects/DIC/Cleaned/Twitter/cleanedMlb.txt")
     # Map(regEx,"/Users/dev/PycharmProjects/DIC/Twitter/Aman_data/football.txt", "/Users/dev/PycharmProjects/DIC/Cleaned/Twitter/Cleanedfootball.txt")
     # Map(regEx,"/Users/dev/PycharmProjects/DIC/Twitter/Aman_data/fifa.txt", "/Users/dev/PycharmProjects/DIC/Cleaned/Twitter/Cleanedfifa.txt")
     # Map(regEx,"/Users/dev/PycharmProjects/DIC/Twitter/Aman_data/messi.txt", "/Users/dev/PycharmProjects/DIC/Cleaned/Twitter/Cleanedmessi.txt")
